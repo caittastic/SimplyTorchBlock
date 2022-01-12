@@ -1,1 +1,6 @@
-{"parent": "block/cube_all", "textures": {"all": "torchblocktastic:block/torch_block_green"}}
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "torchblocktastic:block/torch_block_green"
+  }
+}

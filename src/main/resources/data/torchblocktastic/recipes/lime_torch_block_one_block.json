@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:lime_dye"
+    },
+    {
+      "item": "torchblocktastic:white_torch_block"
+    }
+  ],
+  "result": {
+    "item": "torchblocktastic:lime_torch_block"
+  }
+}

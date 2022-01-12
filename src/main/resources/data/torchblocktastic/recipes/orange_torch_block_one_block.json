@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:orange_dye"
+    },
+    {
+      "item": "torchblocktastic:white_torch_block"
+    }
+  ],
+  "result": {
+    "item": "torchblocktastic:orange_torch_block"
+  }
+}

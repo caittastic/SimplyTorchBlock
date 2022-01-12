@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:magenta_dye"
+    },
+    {
+      "item": "torchblocktastic:white_torch_block"
+    }
+  ],
+  "result": {
+    "item": "torchblocktastic:magenta_torch_block"
+  }
+}

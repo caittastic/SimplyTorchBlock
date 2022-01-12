@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "torchblocktastic:block/light_gray_torch_block"
+    }
+  }
+}

@@ -46,8 +46,8 @@ public class BlockInit {
             () -> new Block(BlockBehaviour.Properties.of(Material.WOOL, MaterialColor.WOOL).strength(0.3f).sound(SoundType.WOOL).lightLevel((p_50870_) -> { return 14; })),
             object -> () -> new BlockItem(object.get(), new Item.Properties().tab(TORCH_BLOCK) ));
 
-    //creates the grey torch block
-    public static final RegistryObject<Block> GREY_TORCH_BLOCK = register("grey_torch_block",
+    //creates the gray torch block
+    public static final RegistryObject<Block> GRAY_TORCH_BLOCK = register("gray_torch_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.WOOL, MaterialColor.WOOL).strength(0.3f).sound(SoundType.WOOL).lightLevel((p_50870_) -> { return 14; })),
             object -> () -> new BlockItem(object.get(), new Item.Properties().tab(TORCH_BLOCK) ));
 
@@ -56,13 +56,13 @@ public class BlockInit {
             () -> new Block(BlockBehaviour.Properties.of(Material.WOOL, MaterialColor.WOOL).strength(0.3f).sound(SoundType.WOOL).lightLevel((p_50870_) -> { return 14; })),
             object -> () -> new BlockItem(object.get(), new Item.Properties().tab(TORCH_BLOCK) ));
 
-    //creates the light green torch block
-    public static final RegistryObject<Block> LIGHT_GREEN_TORCH_BLOCK = register("light_green_torch_block",
+    //creates the lime torch block
+    public static final RegistryObject<Block> LIME_TORCH_BLOCK = register("lime_torch_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.WOOL, MaterialColor.WOOL).strength(0.3f).sound(SoundType.WOOL).lightLevel((p_50870_) -> { return 14; })),
             object -> () -> new BlockItem(object.get(), new Item.Properties().tab(TORCH_BLOCK) ));
 
-    //creates the light grey torch block
-    public static final RegistryObject<Block> LIGHT_GREY_TORCH_BLOCK = register("light_grey_torch_block",
+    //creates the light gray torch block
+    public static final RegistryObject<Block> LIGHT_GRAY_TORCH_BLOCK = register("light_gray_torch_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.WOOL, MaterialColor.WOOL).strength(0.3f).sound(SoundType.WOOL).lightLevel((p_50870_) -> { return 14; })),
             object -> () -> new BlockItem(object.get(), new Item.Properties().tab(TORCH_BLOCK) ));
 
@@ -101,7 +101,10 @@ public class BlockInit {
             () -> new Block(BlockBehaviour.Properties.of(Material.WOOL, MaterialColor.WOOL).strength(0.3f).sound(SoundType.WOOL).lightLevel((p_50870_) -> { return 14; })),
             object -> () -> new BlockItem(object.get(), new Item.Properties().tab(TORCH_BLOCK) ));
 
-
+    //creates the brown torch block
+    public static final RegistryObject<Block> BROWN_TORCH_BLOCK = register("brown_torch_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.WOOL, MaterialColor.WOOL).strength(0.3f).sound(SoundType.WOOL).lightLevel((p_50870_) -> { return 14; })),
+            object -> () -> new BlockItem(object.get(), new Item.Properties().tab(TORCH_BLOCK) ));
 
 
 

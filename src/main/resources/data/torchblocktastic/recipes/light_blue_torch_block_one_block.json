@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:light_blue_dye"
+    },
+    {
+      "item": "torchblocktastic:white_torch_block"
+    }
+  ],
+  "result": {
+    "item": "torchblocktastic:light_blue_torch_block"
+  }
+}

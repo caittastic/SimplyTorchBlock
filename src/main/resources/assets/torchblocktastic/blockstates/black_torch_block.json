@@ -1,1 +1,7 @@
-{"variants": {"": {"model": "torchblocktastic:block/black_torch_block"}}}
+{
+  "variants": {
+    "": {
+      "model": "torchblocktastic:block/black_torch_block"
+    }
+  }
+}
