@@ -12,9 +12,6 @@ import static caittastic.torchblocktastic.TorchBlocktastic.TORCH_BLOCK;
 public class ItemInit {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MOD_ID);
 
-    //adds our item
-    public static final RegistryObject<Item> EXAMPLE_ITEM = register("example_item",() -> new Item(new Item.Properties().tab(TORCH_BLOCK)));
-
     //function that registers items
     private static <T extends Item>RegistryObject<T> register(final String name, final Supplier<T> item) {
         return ITEMS.register(name, item);

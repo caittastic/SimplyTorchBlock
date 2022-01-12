@@ -37,7 +37,7 @@ public class TorchBlocktastic {
         @Override
         @OnlyIn(Dist.CLIENT)
         public ItemStack makeIcon() {
-            return new ItemStack(ItemInit.EXAMPLE_ITEM.get());
+            return new ItemStack(BlockInit.WHITE_TORCH_BLOCK.get());
         }
     };
 
