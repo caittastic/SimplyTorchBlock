@@ -18,7 +18,7 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = '0.0.1-1.18.1'
+version = '0.1.0-1.18.1'
 group = 'caittastic.torchblocktastic' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'torchblocktastic'
 
@@ -127,6 +127,8 @@ repositories {
     // flatDir {
     //     dir 'libs'
     // }
+    
+
 }
 
 dependencies {
@@ -146,6 +148,10 @@ dependencies {
     // For more info...
     // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
+
+
+
+
 }
 
 // Example for how to get properties into the manifest for reading at runtime.

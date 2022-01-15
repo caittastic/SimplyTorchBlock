@@ -1,0 +1,12 @@
+{
+  "ctm": {
+    "ctm_version": 1,
+    "type": "CTM",
+    "textures": [
+      "torchblocktastic:block/torch_block_cyan_ctm"
+    ],
+    "extra": {
+      "ignore_states": "false"
+    }
+  }
+}
