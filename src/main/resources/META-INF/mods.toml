@@ -11,7 +11,7 @@ modId="torchblocktastic" #mandatory
 
 version="${file.jarVersion}" #mandatory
 
-displayName="SImply Torch Block" #mandatory
+displayName="Simply Torch Block" #mandatory
 
 logoFile="examplemod.png" #optional
 

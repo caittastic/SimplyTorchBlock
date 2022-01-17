@@ -1,14 +1,14 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "minecraft:pink_dye"
-    },
-    {
-      "item": "torchblocktastic:white_torch_block"
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:pink_dye"
+        },
+        {
+            "item": "torchblocktastic:white_torch_block"
+        }
+    ],
+    "result": {
+        "item": "torchblocktastic:pink_torch_block"
     }
-  ],
-  "result": {
-    "item": "torchblocktastic:pink_torch_block"
-  }
 }

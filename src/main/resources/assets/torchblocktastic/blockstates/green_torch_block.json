@@ -1,7 +1,7 @@
 {
-  "variants": {
-    "": {
-      "model": "torchblocktastic:block/green_torch_block"
+    "variants": {
+        "": {
+            "model": "torchblocktastic:block/green_torch_block"
+        }
     }
-  }
 }

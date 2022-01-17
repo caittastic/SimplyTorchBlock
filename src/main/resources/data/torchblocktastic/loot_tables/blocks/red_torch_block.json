@@ -1,14 +1,14 @@
 {
-  "type": "minecraft:block",
-  "pools": [
-    {
-      "rolls": 1.0,
-      "entries": [
+    "type": "minecraft:block",
+    "pools": [
         {
-          "type": "minecraft:item",
-          "name": "torchblocktastic:red_torch_block"
+            "rolls": 1.0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "torchblocktastic:red_torch_block"
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }
