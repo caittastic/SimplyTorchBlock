@@ -2,28 +2,25 @@ buildscript {
     repositories {
         // These repositories are only for Gradle plugins, put any other repositories in the repository block further below
         maven { url = 'https://maven.minecraftforge.net' }
-        maven { url = 'https://maven.parchmentmc.org' }
         mavenCentral()
     }
     dependencies {
         classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '5.1.+', changing: true
-        classpath 'org.parchmentmc:librarian:1.+'
     }
 }
 apply plugin: 'net.minecraftforge.gradle'
-apply plugin: 'org.parchmentmc.librarian.forgegradle'
 // Only edit below this line, the above code adds and enables the necessary things for Forge to be setup.
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = '0.2.0-1.18.2'
+version = '0.4-1.19.2'
 group = 'caittastic.torchblocktastic' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'torchblocktastic'
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 println('Java: ' + System.getProperty('java.version') + ' JVM: ' + System.getProperty('java.vm.version') + '(' + System.getProperty('java.vendor') + ') Arch: ' + System.getProperty('os.arch'))
 minecraft {
-    mappings channel: 'parchment', version: '2022.03.13-1.18.2'
+    mappings channel: 'official', version: '1.19.2'
     runs {
         client {
             workingDirectory project.file('run')
@@ -64,7 +61,7 @@ repositories {
 }
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.18.2-40.0.45'
+    minecraft 'net.minecraftforge:forge:1.19.2-43.1.1'
 }
 
 jar {
