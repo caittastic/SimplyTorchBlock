@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "torchblocktastic:block/white_torch_block"
+  }
+}

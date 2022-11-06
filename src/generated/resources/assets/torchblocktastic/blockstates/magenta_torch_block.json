@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "torchblocktastic:block/magenta_torch_block"
+    }
+  }
+}
