@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "": {
+            "model": "torchblocktastic:block/lamp/lamp_base"
+        }
+    }
+}

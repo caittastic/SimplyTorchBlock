@@ -16,5 +16,7 @@
     "block.torchblocktastic.white_torch_block": "White Torch Block",
     "block.torchblocktastic.brown_torch_block": "Brown Torch Block",
 
+    "block.torchblocktastic.lamp_base": "Base Colour Lamp",
+
     "itemGroup.torchblocktastic": "Simply Torch Block"
 }

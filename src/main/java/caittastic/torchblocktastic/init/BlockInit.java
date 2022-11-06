@@ -1,6 +1,7 @@
 package caittastic.torchblocktastic.init;
 
 
+import caittastic.torchblocktastic.init.custom.CustomLampBlock;
 import caittastic.torchblocktastic.init.custom.CustomTorchBlock;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -33,6 +34,13 @@ public class BlockInit {
                     object -> () -> new BlockItem(object.get(), new Item.Properties().tab(TORCH_BLOCK) )));
         }
     }
+
+    /*
+    public static final RegistryObject<Block> LAMP_BASE = register("lamp_base",
+            () -> new CustomLampBlock(BlockBehaviour.Properties.of(Material.WOOL, MaterialColor.WOOL).strength(0.3f).sound(SoundType.WOOD).lightLevel((p_50870_) -> { return 14; })),
+            object -> () -> new BlockItem(object.get(), new Item.Properties().tab(TORCH_BLOCK) ));
+     */
+
 
     //function that registers blocks
     private static <T extends Block> RegistryObject<T> registerBlock(final String name, final Supplier<? extends T> block) {
