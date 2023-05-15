@@ -1,0 +1,19 @@
+{
+  "block.simplytorchblocks.black_torch_block": "Black Torch Block",
+  "block.simplytorchblocks.blue_torch_block": "Blue Torch Block",
+  "block.simplytorchblocks.brown_torch_block": "Brown Torch Block",
+  "block.simplytorchblocks.cyan_torch_block": "Cyan Torch Block",
+  "block.simplytorchblocks.gray_torch_block": "Gray Torch Block",
+  "block.simplytorchblocks.green_torch_block": "Green Torch Block",
+  "block.simplytorchblocks.light_blue_torch_block": "Light Blue Torch Block",
+  "block.simplytorchblocks.light_gray_torch_block": "Light Gray Torch Block",
+  "block.simplytorchblocks.lime_torch_block": "Lime Torch Block",
+  "block.simplytorchblocks.magenta_torch_block": "Magenta Torch Block",
+  "block.simplytorchblocks.orange_torch_block": "Orange Torch Block",
+  "block.simplytorchblocks.pink_torch_block": "Pink Torch Block",
+  "block.simplytorchblocks.purple_torch_block": "Purple Torch Block",
+  "block.simplytorchblocks.red_torch_block": "Red Torch Block",
+  "block.simplytorchblocks.white_torch_block": "White Torch Block",
+  "block.simplytorchblocks.yellow_torch_block": "Yellow Torch Block",
+  "creative_tab.torch_block_tab": "Simply Torch Blocks"
+}

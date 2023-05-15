@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "simplytorchblocks:block/yellow_torch_block"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "d": {
+      "tag": "forge:dyes/blue"
+    },
+    "t": {
+      "tag": "simplytorchblocks:torch_blocks"
+    }
+  },
+  "pattern": [
+    "ttt",
+    "tdt",
+    "ttt"
+  ],
+  "result": {
+    "count": 8,
+    "item": "simplytorchblocks:blue_torch_block"
+  },
+  "show_notification": true
+}

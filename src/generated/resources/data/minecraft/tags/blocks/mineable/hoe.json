@@ -1,0 +1,20 @@
+{
+  "values": [
+    "simplytorchblocks:white_torch_block",
+    "simplytorchblocks:light_gray_torch_block",
+    "simplytorchblocks:gray_torch_block",
+    "simplytorchblocks:black_torch_block",
+    "simplytorchblocks:brown_torch_block",
+    "simplytorchblocks:red_torch_block",
+    "simplytorchblocks:orange_torch_block",
+    "simplytorchblocks:yellow_torch_block",
+    "simplytorchblocks:lime_torch_block",
+    "simplytorchblocks:green_torch_block",
+    "simplytorchblocks:cyan_torch_block",
+    "simplytorchblocks:light_blue_torch_block",
+    "simplytorchblocks:blue_torch_block",
+    "simplytorchblocks:purple_torch_block",
+    "simplytorchblocks:magenta_torch_block",
+    "simplytorchblocks:pink_torch_block"
+  ]
+}
