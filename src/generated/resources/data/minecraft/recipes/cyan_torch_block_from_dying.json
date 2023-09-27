@@ -3,7 +3,7 @@
   "category": "building",
   "key": {
     "d": {
-      "tag": "forge:dyes/green"
+      "tag": "forge:dyes/cyan"
     },
     "t": {
       "tag": "simplytorchblocks:torch_blocks"

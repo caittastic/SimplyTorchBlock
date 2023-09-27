@@ -24,7 +24,7 @@ public class SimplyTorchBlocks{
           new TorchBlockData("yellow", Tags.Items.DYES_YELLOW),
           new TorchBlockData("lime", Tags.Items.DYES_LIME),
           new TorchBlockData("green", Tags.Items.DYES_GREEN),
-          new TorchBlockData("cyan", Tags.Items.DYES_GREEN),
+          new TorchBlockData("cyan", Tags.Items.DYES_CYAN),
           new TorchBlockData("light_blue", Tags.Items.DYES_LIGHT_BLUE),
           new TorchBlockData("blue", Tags.Items.DYES_BLUE),
           new TorchBlockData("purple", Tags.Items.DYES_PURPLE),

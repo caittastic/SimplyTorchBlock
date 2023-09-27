@@ -1,4 +1,4 @@
-// 1.19.4	2023-05-15T22:09:36.3684864	Recipes
+// 1.19.4	2023-05-17T21:22:48.6413352	Recipes
 bf68e80389abf23a9eb0ab3d915b4fec3122910f data/minecraft/advancements/recipes/building_blocks/black_torch_block_from_dying.json
 38053ca205285203215b71de887d15d198d0925a data/minecraft/advancements/recipes/building_blocks/blue_torch_block_from_dying.json
 1f794b67c7f7ad1b22da6766218cce61f3561f30 data/minecraft/advancements/recipes/building_blocks/brown_torch_block_from_dying.json
@@ -18,7 +18,7 @@ f381ba9e078ffea689cf9e7045f4a52b8ab0a1e2 data/minecraft/advancements/recipes/bui
 2f17043e56ebc4f37d35cd2ed2f2614769885fcd data/minecraft/recipes/black_torch_block_from_dying.json
 1df384ffe21f48ebc8d642e9c6e2356fa65bc82b data/minecraft/recipes/blue_torch_block_from_dying.json
 884d86dd22cd822e6deeb1efc3b055b1b5233870 data/minecraft/recipes/brown_torch_block_from_dying.json
-068fa4b9102aca228cc998e827f27a754ee0b965 data/minecraft/recipes/cyan_torch_block_from_dying.json
+fb0ec54de4d8691d3c7c78529d2020c5015b2847 data/minecraft/recipes/cyan_torch_block_from_dying.json
 795dfae3ebe922106506fd7a7d56e5dff7d947c3 data/minecraft/recipes/gray_torch_block_from_dying.json
 b2c24130100cf5727efa52f9ca26a45de6927155 data/minecraft/recipes/green_torch_block_from_dying.json
 a0b55dcf1b3a660b140ebfec511a568466d4f5f5 data/minecraft/recipes/light_blue_torch_block_from_dying.json
