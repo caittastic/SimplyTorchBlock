@@ -1,9 +1,9 @@
-package caittastic.SimplyTorchBlocks.datagen;
+package strelka.simply_torch_blocks.datagen;
 
-import caittastic.SimplyTorchBlocks.SimplyTorchBlocks;
-import caittastic.SimplyTorchBlocks.datagen.Models.GenBlockModelsAndStates;
-import caittastic.SimplyTorchBlocks.datagen.Models.GenItemModels;
-import caittastic.SimplyTorchBlocks.datagen.loot.GenLootTables;
+import strelka.simply_torch_blocks.SimplyTorchBlocks;
+import strelka.simply_torch_blocks.datagen.models.GenBlockModelsAndStates;
+import strelka.simply_torch_blocks.datagen.models.GenItemModels;
+import strelka.simply_torch_blocks.datagen.loot.GenLootTables;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.PackOutput;

@@ -1,4 +1,4 @@
-package caittastic.SimplyTorchBlocks;
+package strelka.simply_torch_blocks;
 
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.Item;

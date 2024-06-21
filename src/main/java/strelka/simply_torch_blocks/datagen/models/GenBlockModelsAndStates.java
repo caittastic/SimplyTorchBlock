@@ -1,8 +1,8 @@
-package caittastic.SimplyTorchBlocks.datagen.Models;
+package strelka.simply_torch_blocks.datagen.models;
 
-import caittastic.SimplyTorchBlocks.ModBlocksAndItems;
-import caittastic.SimplyTorchBlocks.SimplyTorchBlocks;
-import caittastic.SimplyTorchBlocks.TorchBlockData;
+import strelka.simply_torch_blocks.ModBlocksAndItems;
+import strelka.simply_torch_blocks.SimplyTorchBlocks;
+import strelka.simply_torch_blocks.TorchBlockData;
 import net.minecraft.data.PackOutput;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
