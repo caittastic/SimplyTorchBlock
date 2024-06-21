@@ -1,6 +1,6 @@
 package caittastic.SimplyTorchBlocks.datagen.Models;
 
-import caittastic.SimplyTorchBlocks.ModBlocksAnditems;
+import caittastic.SimplyTorchBlocks.ModBlocksAndItems;
 import caittastic.SimplyTorchBlocks.SimplyTorchBlocks;
 import caittastic.SimplyTorchBlocks.TorchBlockData;
 import net.minecraft.data.PackOutput;
@@ -15,7 +15,7 @@ public class GenBlockModelsAndStates extends BlockStateProvider{
   @Override
   protected void registerStatesAndModels(){
     for(TorchBlockData data: SimplyTorchBlocks.TORCH_BLOCK_DATA){
-      simpleBlock(ModBlocksAnditems.TORCH_BLOCK_MAP.get(data.getDyeName()).get()); //register block model
+      simpleBlock(ModBlocksAndItems.TORCH_BLOCK_MAP.get(data.getDyeName()).get()); //register block model
     }
   }
 }

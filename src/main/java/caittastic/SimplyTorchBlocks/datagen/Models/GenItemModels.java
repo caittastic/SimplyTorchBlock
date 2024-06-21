@@ -1,6 +1,6 @@
 package caittastic.SimplyTorchBlocks.datagen.Models;
 
-import caittastic.SimplyTorchBlocks.ModBlocksAnditems;
+import caittastic.SimplyTorchBlocks.ModBlocksAndItems;
 import caittastic.SimplyTorchBlocks.SimplyTorchBlocks;
 import caittastic.SimplyTorchBlocks.TorchBlockData;
 import net.minecraft.data.PackOutput;
@@ -20,7 +20,7 @@ public class GenItemModels extends ItemModelProvider{
   protected void registerModels(){
     for(TorchBlockData data: SimplyTorchBlocks.TORCH_BLOCK_DATA){
       withExistingParent(
-              Objects.requireNonNull(ForgeRegistries.BLOCKS.getKey(ModBlocksAnditems.TORCH_BLOCK_MAP.get(data.getDyeName()).get())).toString(),
+              Objects.requireNonNull(ForgeRegistries.BLOCKS.getKey(ModBlocksAndItems.TORCH_BLOCK_MAP.get(data.getDyeName()).get())).toString(),
               modLoc("block/" + data.getDyeName() + "_torch_block"));
     }
   }

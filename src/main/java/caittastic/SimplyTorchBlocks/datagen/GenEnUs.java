@@ -1,6 +1,6 @@
 package caittastic.SimplyTorchBlocks.datagen;
 
-import caittastic.SimplyTorchBlocks.ModBlocksAnditems;
+import caittastic.SimplyTorchBlocks.ModBlocksAndItems;
 import caittastic.SimplyTorchBlocks.SimplyTorchBlocks;
 import caittastic.SimplyTorchBlocks.TorchBlockData;
 import net.minecraft.data.PackOutput;
@@ -17,7 +17,7 @@ public class GenEnUs extends LanguageProvider{
   protected void addTranslations(){
     for(TorchBlockData data: SimplyTorchBlocks.TORCH_BLOCK_DATA){
       String dyeName = data.getDyeName();
-      add(ModBlocksAnditems.TORCH_BLOCK_MAP.get(dyeName).get(), capitalizeFully(dyeName.replace("_", " ")) + " Torch Block");
+      add(ModBlocksAndItems.TORCH_BLOCK_MAP.get(dyeName).get(), capitalizeFully(dyeName.replace("_", " ")) + " Torch Block");
     }
     add("creative_tab.torch_block_tab", "Simply Torch Blocks");
   }

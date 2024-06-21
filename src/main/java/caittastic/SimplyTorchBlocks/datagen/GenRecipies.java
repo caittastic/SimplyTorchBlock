@@ -1,7 +1,6 @@
 package caittastic.SimplyTorchBlocks.datagen;
 
-import caittastic.SimplyTorchBlocks.ModBlocksAnditems;
-import caittastic.SimplyTorchBlocks.ModTags;
+import caittastic.SimplyTorchBlocks.ModBlocksAndItems;
 import caittastic.SimplyTorchBlocks.SimplyTorchBlocks;
 import caittastic.SimplyTorchBlocks.TorchBlockData;
 import net.minecraft.data.PackOutput;
@@ -25,7 +24,7 @@ public class GenRecipies extends RecipeProvider{
   protected void buildRecipes(@NotNull Consumer<FinishedRecipe> consumer){
     //gen white torch block
     ShapedRecipeBuilder
-            .shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocksAnditems.TORCH_BLOCK_MAP.get("white").get(), 4)
+            .shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocksAndItems.TORCH_BLOCK_MAP.get("white").get(), 4)
             .define('s', Ingredient.of(Items.STICK))
             .define('t', Ingredient.of(Items.TORCH))
             .define('p', Ingredient.of(Items.PAPER))
@@ -37,16 +36,16 @@ public class GenRecipies extends RecipeProvider{
 
     //universal dying torch block recipe
     for(TorchBlockData data: SimplyTorchBlocks.TORCH_BLOCK_DATA){
-      Block torchBlock = ModBlocksAnditems.TORCH_BLOCK_MAP.get(data.getDyeName()).get();
+      Block torchBlock = ModBlocksAndItems.TORCH_BLOCK_MAP.get(data.getDyeName()).get();
       ShapedRecipeBuilder
               .shaped(RecipeCategory.BUILDING_BLOCKS, torchBlock, 8)
-              .define('t', Ingredient.of(ModTags.Items.TORCH_BLOCKS))
+              .define('t', Ingredient.of(SimplyTorchBlocks.TORCH_BLOCK_TAG))
               .define('d', Ingredient.of(data.getDyeTag()))
               .pattern("ttt")
               .pattern("tdt")
               .pattern("ttt")
               .unlockedBy(getHasName(Items.TORCH), has(Items.TORCH))
-              .unlockedBy("has_torch_block", has(ModTags.Items.TORCH_BLOCKS))
+              .unlockedBy("has_torch_block", has(SimplyTorchBlocks.TORCH_BLOCK_TAG))
               .save(consumer, Objects.requireNonNull(ForgeRegistries.ITEMS.getKey(torchBlock.asItem())).getPath() + "_from_dying");
     }
   }

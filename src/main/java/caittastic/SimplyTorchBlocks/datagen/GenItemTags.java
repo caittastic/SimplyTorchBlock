@@ -1,7 +1,6 @@
 package caittastic.SimplyTorchBlocks.datagen;
 
-import caittastic.SimplyTorchBlocks.ModBlocksAnditems;
-import caittastic.SimplyTorchBlocks.ModTags;
+import caittastic.SimplyTorchBlocks.ModBlocksAndItems;
 import caittastic.SimplyTorchBlocks.SimplyTorchBlocks;
 import caittastic.SimplyTorchBlocks.TorchBlockData;
 import net.minecraft.core.HolderLookup;
@@ -22,7 +21,7 @@ public class GenItemTags extends ItemTagsProvider{
   @Override
   protected void addTags(HolderLookup.@NotNull Provider provider){
     for(TorchBlockData data: SimplyTorchBlocks.TORCH_BLOCK_DATA){
-      this.tag(ModTags.Items.TORCH_BLOCKS).add(ModBlocksAnditems.TORCH_BLOCK_MAP.get(data.getDyeName()).get().asItem());
+      this.tag(SimplyTorchBlocks.TORCH_BLOCK_TAG).add(ModBlocksAndItems.TORCH_BLOCK_MAP.get(data.getDyeName()).get().asItem());
     }
   }
 }
