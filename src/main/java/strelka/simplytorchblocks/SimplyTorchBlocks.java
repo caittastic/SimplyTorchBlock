@@ -1,17 +1,22 @@
-package strelka.simply_torch_blocks;
+package strelka.simplytorchblocks;
 
+import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.*;
+import net.minecraft.world.level.block.Block;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.common.Tags;
-import net.minecraftforge.event.CreativeModeTabEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.registries.RegistryObject;
+
+import java.util.Map;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(SimplyTorchBlocks.MOD_ID)
@@ -41,29 +46,20 @@ public class SimplyTorchBlocks{
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus(); //the bus for registries
         ModBlocksAndItems.BLOCKS.register(bus); //register block registry
         ModBlocksAndItems.ITEMS.register(bus); //register item registry
+        TABS.register(bus);
         MinecraftForge.EVENT_BUS.register(this); // Register ourselves for server and other game events we are interested in
-        bus.addListener(this::addTabs); //registers our creative mode tab
     }
 
-    private void addTabs(CreativeModeTabEvent.BuildContents event){
-        if(event.getTab() == ModTab.TORCH_BLOCK_TAB){
-            for(TorchBlockData data: TORCH_BLOCK_DATA){
-                event.accept(ModBlocksAndItems.TORCH_BLOCK_MAP.get(data.getDyeName()).get());
+    public static final DeferredRegister<CreativeModeTab> TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MOD_ID);
+
+    public static RegistryObject<CreativeModeTab> TORCH_BLOCK_TAB = TABS.register("torch_block_tab", () -> CreativeModeTab.builder()
+        .title(Component.translatable("creative_tab.torch_block_tab"))
+        .icon(() -> new ItemStack(ModBlocksAndItems.TORCH_BLOCK_MAP.get("white").get()))
+        .withTabsBefore(CreativeModeTabs.SPAWN_EGGS)
+        .displayItems((featureFlags, output) -> {
+            for ( RegistryObject<Block> torchBlock : ModBlocksAndItems.TORCH_BLOCK_MAP.values()) {
+                output.accept(torchBlock.get());
             }
-        }
-    }
-
-    @Mod.EventBusSubscriber(modid = SimplyTorchBlocks.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
-    public static class ModTab{
-        public static CreativeModeTab TORCH_BLOCK_TAB;
-
-        @SubscribeEvent
-        public static void registerCreativeModeTabs(CreativeModeTabEvent.Register event){
-            TORCH_BLOCK_TAB = event.registerCreativeModeTab(new ResourceLocation(SimplyTorchBlocks.MOD_ID, "torch_block_tab"),
-                builder -> builder.icon(() -> new ItemStack(ModBlocksAndItems.TORCH_BLOCK_MAP.get("white").get())
-                ).title(Component.translatable("creative_tab.torch_block_tab")));
-        }
-    }
-
-
+        })
+        .build());
 }

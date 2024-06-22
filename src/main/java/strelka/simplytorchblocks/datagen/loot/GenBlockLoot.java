@@ -1,8 +1,8 @@
-package strelka.simply_torch_blocks.datagen.loot;
+package strelka.simplytorchblocks.datagen.loot;
 
-import strelka.simply_torch_blocks.ModBlocksAndItems;
-import strelka.simply_torch_blocks.SimplyTorchBlocks;
-import strelka.simply_torch_blocks.TorchBlockData;
+import strelka.simplytorchblocks.ModBlocksAndItems;
+import strelka.simplytorchblocks.SimplyTorchBlocks;
+import strelka.simplytorchblocks.TorchBlockData;
 import net.minecraft.data.loot.BlockLootSubProvider;
 import net.minecraft.world.flag.FeatureFlags;
 import net.minecraft.world.level.block.Block;

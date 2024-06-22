@@ -1,4 +1,4 @@
-package strelka.simply_torch_blocks;
+package strelka.simplytorchblocks;
 
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.Item;

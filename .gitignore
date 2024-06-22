@@ -20,6 +20,10 @@ build
 # other
 eclipse
 run
+!run/saves
+!run/screenshots
+!run/options
+!run/config
 
 # Files from Forge MDK
 forge*changelog.txt

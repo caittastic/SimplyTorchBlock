@@ -1,8 +1,8 @@
-package strelka.simply_torch_blocks.datagen;
+package strelka.simplytorchblocks.datagen;
 
-import strelka.simply_torch_blocks.ModBlocksAndItems;
-import strelka.simply_torch_blocks.SimplyTorchBlocks;
-import strelka.simply_torch_blocks.TorchBlockData;
+import strelka.simplytorchblocks.ModBlocksAndItems;
+import strelka.simplytorchblocks.SimplyTorchBlocks;
+import strelka.simplytorchblocks.TorchBlockData;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;

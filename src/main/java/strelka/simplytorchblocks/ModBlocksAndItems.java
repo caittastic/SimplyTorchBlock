@@ -1,4 +1,4 @@
-package strelka.simply_torch_blocks;
+package strelka.simplytorchblocks;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
@@ -41,11 +41,15 @@ public class ModBlocksAndItems{
                 registerBlockWithBlockItem(
                     data.getDyeName() + "_torch_block",
                     () -> new Block(BlockBehaviour.Properties.copy(Blocks.WHITE_WOOL).strength(0.3f).lightLevel((blockState) -> 14)){
-                        @Override
-                        public int getFlammability(BlockState state, BlockGetter world, BlockPos pos, Direction face){return 60;} // makes our block flamable
+                        @Override // makes our block flamable
+                        public int getFlammability(BlockState state, BlockGetter world, BlockPos pos, Direction face){
+                            return 60;
+                        }
 
-                        @Override
-                        public int getFireSpreadSpeed(BlockState state, BlockGetter world, BlockPos pos, Direction face){return 30;} //gets the speed at wich our block spreads fire
+                        @Override //gets the speed at wich our block spreads fire
+                        public int getFireSpreadSpeed(BlockState state, BlockGetter world, BlockPos pos, Direction face){
+                            return 30;
+                        }
 
                         //result of right clicking on the block
                         @Override

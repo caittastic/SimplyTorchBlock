@@ -1,4 +1,4 @@
-package strelka.simply_torch_blocks.datagen.loot;
+package strelka.simplytorchblocks.datagen.loot;
 
 
 import net.minecraft.data.PackOutput;

@@ -1,8 +1,8 @@
-package strelka.simply_torch_blocks.datagen.models;
+package strelka.simplytorchblocks.datagen.models;
 
-import strelka.simply_torch_blocks.ModBlocksAndItems;
-import strelka.simply_torch_blocks.SimplyTorchBlocks;
-import strelka.simply_torch_blocks.TorchBlockData;
+import strelka.simplytorchblocks.ModBlocksAndItems;
+import strelka.simplytorchblocks.SimplyTorchBlocks;
+import strelka.simplytorchblocks.TorchBlockData;
 import net.minecraft.data.PackOutput;
 import net.minecraftforge.client.model.generators.ItemModelProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
